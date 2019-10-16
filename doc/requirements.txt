@@ -1,3 +1,4 @@
+sphinx-pyviz-theme
 ipykernel
 numpy
 matplotlib
