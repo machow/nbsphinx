@@ -124,6 +124,10 @@ except Exception:
 # -- Options for HTML output ----------------------------------------------
 
 html_title = project + ' version ' + release
+html_theme = 'pandas_sphinx_theme'
+html_theme_options = {
+    'navigation_with_keys': True,
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 
