@@ -125,6 +125,13 @@ except Exception:
 
 html_title = project + ' version ' + release
 
+import alabaster_jupyterhub
+html_theme_path = [alabaster_jupyterhub.get_html_theme_path()]
+html_theme = 'alabaster_jupyterhub'
+html_theme_options = {
+    'navigation_with_keys': True,
+}
+
 # -- Options for LaTeX output ---------------------------------------------
 
 # See https://www.sphinx-doc.org/en/master/latex.html
